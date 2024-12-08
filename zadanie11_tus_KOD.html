@@ -1,0 +1,40 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij()
+ {
+ window.close()
+ }
+ </script>
+</head>
+<body>
+ <form>
+ <textarea name="kod" cols="80" rows="25" readonly>
+
+    <!DOCTYPE html>
+<head>
+<title> proste obliczenia</title>
+<meta charset="utf-8">
+</head>
+<body>
+    <div style="color:green;font-size: 42px;">
+    <script lang="JavaScript">
+        var liczba1=prompt("D1=","");
+        var liczba2=prompt("D2=","");
+        var ile_sekund_tus;
+        var D1_tus=parseFloat(liczba1);
+        var D2_tus=parseFloat(liczba2);
+
+        ile_sekund_tus=(D1_tus-D2_tus)*24*3600;
+        document.write("D1="+D1_tus+"D2="+D2_tus+"<br>")
+        document.write("ile sekund="+ile_sekund_tus+"s"+ "<br>")
+    </script>
+    </div>
+
+ </textarea>
+</form>
+<input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+<script type="text/javascript">
+</script>
+</body>
+</html>
